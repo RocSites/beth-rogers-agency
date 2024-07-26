@@ -847,6 +847,20 @@ const Main = () => {
                                 </Typography> */}
                             </CardContent>
                         </Card>
+                        <Card className={classes.productCard} sx={{ maxWidth: 345 }}>
+                            <a style={{textDecoration: "none", color: "black"}} href="https://partnersolutions.nationwide.com/pet/bethrogersagency" target="_blank">
+                            <StaticImage src="../images/pet_charlie_pic.jpg" />
+                            <CardContent>
+                                <Typography className={classes.productTitleText} gutterBottom variant="h5" component="div">
+                                    Pet
+                                </Typography>
+                                {/* <Typography variant="body2" color="text.secondary">
+                                    Business description Business description Business description Business description Business description Business description Business description Business description
+                                </Typography> */}
+                            </CardContent>
+                            </a>
+                        </Card>
+                        
                     </div>
 
                     {/* {console.log(productInfo.map(obj => obj.imagePath))}

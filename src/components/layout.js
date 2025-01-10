@@ -2,6 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { makeStyles } from "@material-ui/core/styles"
+import { Link } from "gatsby"
 import Header from "./header"
 import PhoneIcon from '@material-ui/icons/Phone'
 import FaxIcon from '@mui/icons-material/Fax';
@@ -108,6 +109,7 @@ const Layout = ({ children }) => {
 
             <div style={{ width: "100%", border: "1px solid gold", marginBottom: "20px" }}></div>
             <p className={classes.copyrightText}> © {new Date().getFullYear()} Beth Rogers Agency Inc.</p>
+            <Link to="/privacy-policy" style={{color: "white"}}>Privacy Policy</Link>
             <p class="rocsitesText">Website created and maintained by <span><a href="https://www.rocsites.com/" target="_blank">RocSites</a></span></p>
           </div>
         </footer>

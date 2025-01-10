@@ -109,7 +109,7 @@ const Layout = ({ children }) => {
 
             <div style={{ width: "100%", border: "1px solid gold", marginBottom: "20px" }}></div>
             <p className={classes.copyrightText}> © {new Date().getFullYear()} Beth Rogers Agency Inc.</p>
-            <Link to="/privacy-policy" style={{color: "white"}}>Privacy Policy</Link>
+            <Link to="/privacy-policy" style={{color: "white", textAlign: "center"}}>Privacy Policy</Link>
             <p class="rocsitesText">Website created and maintained by <span><a href="https://www.rocsites.com/" target="_blank">RocSites</a></span></p>
           </div>
         </footer>
